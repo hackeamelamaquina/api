@@ -24,7 +24,7 @@ const connection = mysql.createConnection({
 });
 
 app.get('/', (req, res) => {
-  res.send('Welcome to my API!');
+  res.send('Welcome to my API');
 });
 app.put('/costos/', (req, res) => {
  // const { id } = req.params; 
