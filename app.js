@@ -17,10 +17,10 @@ app.use((req, res, next) => {
 });
 
 const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'multicreativa'
+  host: 'us-cdbr-east-02.cleardb.com',
+  user: 'bd915f489612d4',
+  password: 'a96aadd6',
+  database: 'eroku_f8856b73e998362'
 });
 
 app.get('/', (req, res) => {
