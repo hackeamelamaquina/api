@@ -26,7 +26,7 @@ const connection = mysql.createConnection({
 
 //en DO
 const connection = mysql.createConnection({
-  host: '167.99.154.234',
+  host: '167.99.154.234:3306',
   user: 'jonathan',
   password: 'angizia666',
   database: 'multicreativa'
