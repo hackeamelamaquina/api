@@ -16,11 +16,20 @@ app.use((req, res, next) => {
     next();
 });
 
+/* en heruko
 const connection = mysql.createConnection({
   host: 'us-cdbr-east-02.cleardb.com',
   user: 'bd915f489612d4',
   password: 'a96aadd6',
   database: 'heroku_f8856b73e998362'
+});*/
+
+//en DO
+const connection = mysql.createConnection({
+  host: '167.99.154.234',
+  user: 'jonathan',
+  password: 'angizia666',
+  database: 'multicreativa'
 });
 
 app.get('/', (req, res) => {
